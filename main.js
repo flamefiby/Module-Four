@@ -22,7 +22,7 @@ fetch(url).then(function(response){
             let ul = document.createElement('ul');
             // set the img source and name
             img.setAttribute('src',
-                'https://flamefiby.github.io/Module-Four/img' + products.strangeProducts[i].image);
+                'https://flamefiby.github.io/Module-Four/img/' + products.strangeProducts[i].image);
             img.setAttribute('alt', products.strangeProducts[i].image);
             // given the name, price, and details to each product
             h2.textContent = products.strangeProducts[i].name;
